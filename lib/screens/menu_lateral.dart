@@ -4,6 +4,8 @@ import 'ej2.dart';
 import 'ej3.dart';
 import 'ej4.dart';
 import 'ej5.dart';
+import 'ej6.dart';
+import 'ej7.dart';
 
 import 'package:rer/ej1.dart';
 
@@ -71,6 +73,33 @@ class MenuLateral extends StatelessWidget {
                 MaterialPageRoute(
                   builder: (BuildContext context) => const Ej5(),
                 ),
+                
+              );
+            },
+            
+          ),
+          ListTile(
+            title: const Text("Ej6"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Ej6(),
+                ),
+                
+              );
+            },
+            
+          ),
+          ListTile(
+            title: const Text("Ej7"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) => const Ej7(),
+                ),
+                
               );
             },
             
