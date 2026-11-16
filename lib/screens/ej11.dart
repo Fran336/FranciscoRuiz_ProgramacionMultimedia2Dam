@@ -38,7 +38,9 @@ class Ej11 extends StatelessWidget {
     return Scaffold(
       drawer: const MenuLateral(),
       appBar: AppBar(title: const Text("Ejercicio 11")),
-      body: ListView(
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16),
+        child: ListView(
         children: [
           Row(
             children: [
@@ -130,6 +132,7 @@ class Ej11 extends StatelessWidget {
         ),
       ),
         ],
+      ),
       ),
     );
   }
