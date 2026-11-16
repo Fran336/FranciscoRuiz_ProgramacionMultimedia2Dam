@@ -11,7 +11,7 @@ import 'ej9.dart';
 import 'ej10.dart';
 import 'ej11.dart';
 
-import 'package:ejerciciosFlutterFranciscoRuiz/ej1.dart';
+import 'package:ejercicios_flutter_franciscoruiz/ej1.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
