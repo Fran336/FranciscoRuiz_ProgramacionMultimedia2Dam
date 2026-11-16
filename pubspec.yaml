@@ -73,7 +73,22 @@ flutter:
     - assets/yesod.jpeg
     - assets/hod.jpeg
     - assets/malkuth.jpeg
+
     - assets/keter.jpeg
+    - assets/CardWheelsIndustryArt.webp
+    - assets/CardRangaWorkshopArt.webp
+    - assets/CardOldBoysWorkshopArt.webp
+    - assets/CardMookWorkshopArt.webp
+    - assets/CardFuriosoArt.webp
+    - assets/CardZelkovaWorkshopArt.webp
+    - assets/CardAtelierLogicArt.webp
+    - assets/CardCrystalAtelierArt.webp
+    - assets/CardDurandalArt.webp
+    - assets/BlackSilenceIcon.webp
+    - assets/BlackSilenceWeapons.webp
+    - assets/Black_Silence_BG3.webp
+    - assets/Furioso_Fury_Scream.webp
+    - assets/yesodP.jpg
 
   #   - images/a_dot_ham.jpeg
 

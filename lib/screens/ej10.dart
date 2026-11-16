@@ -7,7 +7,7 @@ class Ej10 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     return const MyHomePage(title: 'Flutter Demo Home Page');
+     return const MyHomePage(title: 'Ej10');
   }
 }
 
@@ -23,19 +23,19 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounter() {
+  void _sumar() {
     setState(() {
       _counter++;
     });
   }
 
-  void _decreseCounter() {
+  void _restar() {
     setState(() {
       _counter--;
     });
   }
 
-   void _resetCounter() {
+   void _reset() {
     setState(() {
       _counter = 0;
     });
@@ -52,7 +52,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
@@ -64,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
   child: Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
-      const Text('You have pushed the button this many times:'),
+      const Text('Veces que has pulsado el boton:'),
       Text(
         '$_counter',
         style: Theme.of(context).textTheme.headlineMedium,
@@ -72,16 +71,17 @@ class _MyHomePageState extends State<MyHomePage> {
       Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
+        
           ElevatedButton(
-            onPressed: _incrementCounter,
+            onPressed: _restar,
+            child: const Text('Restar'),
+          ),
+            ElevatedButton(
+            onPressed: _sumar,
             child: const Text('Sumar'),
           ),
           ElevatedButton(
-            onPressed: _decreseCounter,
-            child: const Text('Restar'),
-          ),
-          OutlinedButton(
-            onPressed: _resetCounter,
+            onPressed: _reset,
             child: const Text('Resetear'),
           ),
         ],
